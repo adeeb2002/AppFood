@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/masterCardMenu"
+    android:title="Master Card"
+    android:icon="@drawable/mastercard"/>
+    <item android:id="@+id/payPulMenu"
+        android:title="Pay Pal"
+        android:icon="@drawable/paypal"/>
+
+    <item android:id="@+id/bankMenu"
+        android:title="Bank"
+        android:icon="@drawable/bankicon"/>
+</menu>

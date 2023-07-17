@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/logoutMenu"
+        android:title="LogOut"
+        app:cnb_textColor="@color/black"
+        app:cnb_backgroundColor="@color/white"
+        android:icon="@drawable/exit"
+    />
+    <item android:id="@+id/helpMenu"
+        android:title="Help"
+        app:cnb_textColor="@color/black"
+        app:cnb_backgroundColor="@color/white"
+        android:icon="@drawable/help"/>
+
+    <item android:id="@+id/addMenu"
+        android:title="Add Item"
+        app:cnb_textColor="@color/black"
+        app:cnb_backgroundColor="@color/white"
+        android:icon="@drawable/addnotes"/>
+</menu>

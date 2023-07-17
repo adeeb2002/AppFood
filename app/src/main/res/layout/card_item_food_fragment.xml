@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="25dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="10dp"
+        android:layout_margin="10dp"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <androidx.cardview.widget.CardView
+                android:id="@+id/layoutImg"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginStart="10dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="50dp"
+                >
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/imgItem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:src="@drawable/loveemptyfoodicon"
+                        />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            
+            <TextView
+                android:id="@+id/nameItemTv"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="Name Item"
+                android:textStyle="bold"
+                android:fontFamily="@font/roboto_black"
+                app:layout_constraintStart_toEndOf="@id/layoutImg"
+                app:layout_constraintTop_toTopOf="@id/layoutImg"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                />
+
+
+            <TextView
+                android:id="@+id/priceTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/layoutImg"
+                app:layout_constraintBottom_toTopOf="@id/addToCartImage"
+                android:text="Price"
+                android:fontFamily="@font/roboto_black"
+                android:textColor="@color/orange"
+                android:textSize="16sp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="20dp"
+                />
+
+            <ImageView
+                android:id="@+id/addToCartImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/addnotes"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/homeMenu"
+        android:title="Home"
+        app:cnb_textColor="@color/black"
+        app:cnb_backgroundColor="@color/white"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item android:id="@+id/likeMenu"
+        android:title="Like"
+        app:cnb_textColor="@color/black"
+        app:cnb_backgroundColor="@color/white"
+        android:icon="@drawable/likeicon"/>
+
+    <item android:id="@+id/cartMenu"
+        android:title="Cart"
+        app:cnb_textColor="@color/black"
+        app:cnb_backgroundColor="@color/white"
+        android:icon="@drawable/carticon"/>
+
+    <item android:id="@+id/profilMenu"
+        android:title="Profel"
+        app:cnb_textColor="@color/black"
+        app:cnb_backgroundColor="@color/white"
+        android:icon="@drawable/person_24"/>
+
+
+
+</menu>

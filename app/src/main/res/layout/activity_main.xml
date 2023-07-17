@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contenarMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:id="@+id/ismaelnetv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="30dp"
+        android:elevation="10dp"
+        app:cnb_menuResource="@menu/ismael_menu"
+        android:layout_marginHorizontal="20dp"
+        app:cnb_radius="20dp"
+        app:cnb_unselectedColor="@color/black"
+        android:background="@drawable/shape_navigation_bar"
+        />
+
+
+ </androidx.constraintlayout.widget.ConstraintLayout>
